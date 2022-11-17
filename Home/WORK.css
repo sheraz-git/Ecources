@@ -1,0 +1,590 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.h5 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#colorA {
+  color: #ff6600;
+}
+
+#colorB {
+  color: #44425a;
+}
+
+.small {
+  float: right;
+}
+#a {
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#margin {
+  margin-bottom: 150px;
+}
+#padding {
+  padding: 10px 0px;
+}
+
+/* //main// */
+.container {
+  width: 100%;
+}
+/* //inner// */
+
+.containerinner {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+.containerA {
+  width: 40%;
+  padding: 30px 50px;
+}
+/* 
+// start B// */
+.containerB {
+  width: 25%;
+  display: flex;
+}
+
+.B1 {
+  width: 10%;
+  padding: 40px 30px;
+  font-size: 35px;
+}
+
+.B2 {
+  width: 70%;
+  padding: 40px 10px;
+}
+
+/* //end B// */
+
+.containerC {
+  width: 25%;
+  display: flex;
+}
+.C1 {
+  width: 15%;
+  padding: 40px 30px;
+  font-size: 35px;
+}
+
+.C2 {
+  width: 70%;
+  padding: 40px 10px;
+}
+
+.containerD {
+  width: 25%;
+  display: flex;
+}
+
+.D1 {
+  width: 15%;
+  padding: 40px 30px;
+  font-size: 35px;
+}
+
+.D2 {
+  width: 70%;
+  padding: 40px 10px;
+}
+
+.font {
+  font-size: 16px;
+}
+.fonta {
+  font-size: 12.8px;
+}
+#color {
+  color: #ff6600;
+}
+
+/* ///2nd inner// */
+
+.containerinner1 {
+  display: flex;
+}
+.container1a {
+  width: 30%;
+}
+.container1aa {
+  width: 85%;
+  float: right;
+  display: flex;
+  background-color: #f2f1f8;
+  padding: 5px 0px;
+}
+
+.aaa {
+  width: 15%;
+  padding: 15px 20px;
+  font-size: 35px;
+}
+
+.aaaa {
+  width: 75%;
+  padding: 25px 20px;
+}
+
+.container1b {
+  width: 70%;
+  padding: 30px 30px;
+}
+
+.list li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px 20px;
+}
+
+.container1c {
+  width: 20%;
+  padding: 15px;
+}
+
+.butt {
+  width: 130px;
+  height: 50px;
+  background-color: #ff6600;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
+
+/* ///2nd div end// */
+
+.pic {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.pic1 {
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  padding: 50px 20px;
+  color: white;
+}
+.butt1 {
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+  background-color: #ff6600;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.pic2 {
+  width: 3%;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pica {
+  width: 40px;
+}
+
+.pic2 i {
+  margin-top: 10px;
+}
+
+/* ///3rd div// */
+
+.About {
+  width: 75%;
+  display: flex;
+  margin: auto;
+
+}
+
+.image {
+  width: 40%;
+  padding-right: 10px;
+}
+
+.data {
+  width: 60%;
+  padding: 50px 35px;
+}
+
+/* ///4rd div// */
+
+.subjects {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+#a {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.aa {
+  width: 50%;
+  padding: 50px 0px;
+  color: white;
+  margin: auto;
+
+}
+
+.cards {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carda {
+  width: 23%;
+  height: 167px;
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("./Image/cat-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardb {
+  width: 23%;
+  height: 167px;
+  background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("./Image/cat-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardc {
+  width: 23%;
+  height: 167px;
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("./Image/cat-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardd {
+  width: 23%;
+  height: 167px;
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("./Image/cat-4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carde {
+  width: 23%;
+  height: 167px;
+  background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("./Image/cat-5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardf {
+  width: 23%;
+  height: 167px;
+  background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("./Image/cat-6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardg {
+  width: 23%;
+  height: 167px;
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url("./Image/cat-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardh {
+  width: 23%;
+  height: 167px;
+  background-image:linear-gradient(0deg,rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url("./Image/cat-8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ////5th div// */
+.Cources {
+  width: 75%;
+  margin: auto;
+}
+
+.Cources_info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cources_info1 {
+  width: 30%;
+  background-color: #f2f1f8;
+}
+
+.Cources_info1a {
+  width: 100%;
+ 
+}
+.Cources_info1b {
+  padding: 20px 20px;
+}
+.Cources_info1a i {
+  color: #ff6600;
+}
+.Cources_info1b i {
+  color: #ff6600;
+}
+
+/* \\//// */
+
+.sign {
+  width: 100%;
+  position: relative;
+}
+
+.signdata {
+  width: 40%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.signform {
+  width: 30%;
+  position: absolute;
+  top: 10%;
+  right: 12%;
+ 
+}
+
+.signformhead {
+  background-color: white;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.values {
+  background-color: #ff6600;
+  margin: auto;
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+.button {
+  width: 300px;
+  height: 50px;
+  background-color: #44425a;
+  color: white;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.list2 li {
+  padding: 20px 0px;
+  color: white;
+  list-style-type: none;
+}
+
+/* // */
+.Courcesa {
+  width: 75%;
+  margin: auto;
+}
+
+.Cources_infob {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Cources_info1c {
+  width: 23%;
+  background-color: #f2f1f8;
+}
+
+.Cources_info1d {
+  width: 80%;
+}
+
+.Cources_info1be {
+  padding: 20px 20px;
+  width: 50%;
+  margin: auto;
+}
+/*     
+/// */
+
+.test {
+  width: 75%;
+  margin: auto;
+}
+
+.test_infob {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+}
+/* //// */
+
+.blog {
+  width: 75%;
+  margin: auto;
+}
+
+.blog_info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog_info1 {
+  width: 30%;
+  background-color: #f2f1f8;
+  position: relative;
+}
+/*     
+///    */
+
+.containerinner1 {
+  display: flex;
+  border-bottom: 1px solid grey;
+}
+
+.containerA1 {
+  width: 40%;
+  padding: 30px 50px;
+  background-color: #ff6600;
+  display: flex;
+}
+/* 
+    // start B// */
+.containerB1 {
+  width: 25%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.B11 {
+  width: 5%;
+  padding: 40px 30px;
+  font-size: 35px;
+  background-color: aliceblue;
+}
+
+.B21 {
+  width: 70%;
+  padding: 40px 10px;
+  background-color: yellow;
+}
+
+/* //end B// */
+
+.containerC1 {
+  width: 25%;
+  display: flex;
+  background-color: #44425a;
+}
+.C11 {
+  width: 5%;
+  padding: 40px 30px;
+  font-size: 35px;
+}
+
+.C21 {
+  width: 70%;
+  padding: 40px 10px;
+}
+
+.containerD1 {
+  width: 25%;
+  display: flex;
+  background-color: aquamarine;
+}
+
+.D11 {
+  width: 5%;
+  padding: 40px 30px;
+  font-size: 35px;
+}
+
+.D21 {
+  width: 70%;
+  padding: 40px 10px;
+}
+
+/* //// */
+
+.foot {
+  width: 100%;
+  display: flex;
+  background-color: #44425a;
+}
+
+.f1 {
+  width: 30%;
+  padding: 20px 20px;
+}
+
+.f1 i {
+  padding: 5px 3px;
+  color: white;
+}
+
+.f1 p {
+  color: white;
+}
+
+/* // */
+.last {
+  width: 100%;
+  background-color: #44425a;
+  display: flex;
+}
+
+.l1 {
+  width: 50%;
+
+  padding: 20px 15px;
+}
+
+.l2 {
+  width: 50%;
+  text-align: right;
+  padding: 20px 50px;
+}
+
+.l2 span {
+  padding: 0px 20px;
+  color: white;
+}
+
+/* /// */
+
+.hr{
+
+width: 100%;
+background-color: #44425a;
+
+}
